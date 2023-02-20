@@ -26,7 +26,7 @@
         <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.location }}</li>
       {% endif %}
       {% if author.employer contains "renault" %}
-    	  <li><a href="{{ author.employer }}"><img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}" class="author__avatar" alt="{{ author.name }}"> Renault</a></li>
+    	  <li><a href="https://www.renaultgroup.com/en/"><img src="{{ author.avatar | prepend: "/images/" | prepend: base_path }}"> Renault</a></li>
       {% else %}
     	  <li><i class="fa fa-fw fa-map-marker" aria-hidden="true"></i> {{ author.employer }}</li>
       {% endif %}
